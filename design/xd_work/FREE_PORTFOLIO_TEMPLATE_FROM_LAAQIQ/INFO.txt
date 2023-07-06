@@ -1,0 +1,49 @@
+FREE Responsive Portfolio Template for Agency, Personal and Webflow Expert. Perfectly organized and designed with latest design trends. Created for Sketch, Figma and Adobe XD.
+
+------------------------------------------------------------
+
+Free for personal and non-commercial purposes. No permission needed. Just don't redistribute or sell this template anywhere else.
+
+------------------------------------------------------------
+
+Features
++ 12 pages
++ Desktop and Mobile version
++ Free Google fonts
++ Easy Customize with Styles
++ Sketch, Figma and Adobe XD version
++ Bootstrap Grid
+
+------------------------------------------------------------
+
+Pages
++ 3 homepages for Agency, Personal and Webflow Expert
++ 2 about
++ 1 services
++ 2 portfolio and 1 single project
++ 1 blog and 1 single post
++ 1 contact
+
+------------------------------------------------------------
+
+Fonts
+https://fonts.google.com/specimen/Epilogue
+
+Images
+https://unsplash.com
+https://photos.icons8.com
+https://www.pexels.com
+
+Icons
+https://icons.getbootstrap.com
+https://www.flaticon.com
+https://iconmonstr.com
+
+------------------------------------------------------------
+
+Check My Store
+https://laaqiq.gumroad.com
+
+Contact Me
+laaqiq@gmail.com
+instagram.com/laaqiq.design
