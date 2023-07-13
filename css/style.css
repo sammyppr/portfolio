@@ -3,9 +3,11 @@
     --primary-bg: #28293E;
     --secondary-bg: #FDF0E9;
     --primary-color: white;
-    --secondary-color: black;
+    --secondary-color: #391400;
     --padding-default: 12px;
-    --twocolumn-text-padding: 100px;
+    --padding-narrow: 60px;
+    --twocolumn-text-padding: 40px;
+
 }
 
 /* google font */
@@ -30,10 +32,6 @@ header {
     padding: var(--padding-default);
 }
 
-#menubar {
-}
-#header-catch{
-}
 #header-img, #header-text{
     width: 100%;
 }
@@ -47,6 +45,7 @@ header {
     #header-catch{
         display: flex;
         flex-direction: row-reverse;
+        padding: var(--padding-narrow);
     }
     #header-img, #header-text{
         width: 50%;
@@ -67,7 +66,7 @@ header {
 /* footer */
 footer {
     color: var(--primary-color);
-    background-color: var(--secondary-color);
+    background-color: var(--primary-bg);
 
 }
 
@@ -78,7 +77,7 @@ footer {
 }
 #latest-work{
     color: var(--primary-color);
-    background-color: var(--secondary-color);
+    background-color: var(--primary-bg);
     padding: var(--padding-default);
 }
 #footer-imgs{
@@ -91,6 +90,7 @@ footer {
     #latest-works{
         display: flex;
         justify-content: space-between;
+        padding: var(--padding-narrow);
     }
     #self-introduction{
         display: flex;
