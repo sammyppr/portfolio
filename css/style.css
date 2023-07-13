@@ -1,0 +1,5 @@
+/* CSS 変数定義*/
+:root {
+    --primary-bg: #28293E;
+    --secondary-bg: #FDF0E9;
+}
