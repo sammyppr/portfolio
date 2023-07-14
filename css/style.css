@@ -92,6 +92,9 @@ footer {
         justify-content: space-between;
         padding: var(--padding-narrow);
     }
+    .latest-work{
+        width: 30%;
+    }
     #self-introduction{
         display: flex;
     }
