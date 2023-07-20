@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        let ctx;
+        let cw;
+        let ch;
+
+        function init(){
+            let canvas = document.getElementById('mycanvas');
+            if(!canvas || !canvas.getContext){
+                console.log("failed");
+                return false;
+            }
+            console.log("not come");
+            ctx = canvas.getContext('2d');
+            cw = canvas.width;
+            ch = canvas.height;
+
+            draw();
+        }
+        function draw(){
+            ctx.fillStyle="rgba(255,0,0,1)";
+            ctx.fillRect(10,10,50,50);
+
+        }
+    </script>
+</head>
+<body onload="init();">
+    <h1>Canvas Test</h1>
+    <canvas id="mycanvas" width="100%" height="400"></canvas>
+</body>
+</html>
