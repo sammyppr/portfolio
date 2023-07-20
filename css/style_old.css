@@ -1,0 +1,107 @@
+/* CSS 変数定義*/
+:root {
+    --primary-bg: #28293E;
+    --secondary-bg: #FDF0E9;
+    --primary-color: white;
+    --secondary-color: #391400;
+    --padding-default: 12px;
+    --padding-narrow: 60px;
+    --twocolumn-text-padding: 40px;
+
+}
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+
+/* body */
+body {
+    margin: 0px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* header */
+header {
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+    padding: var(--padding-default);
+}
+
+#header-img, #header-text{
+    width: 100%;
+}
+
+@media(min-width: 768px){
+    #menubar {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    #header-catch{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: var(--padding-narrow);
+    }
+    #header-img, #header-text{
+        width: 50%;
+    }
+    #header-text{
+        padding: var(--twocolumn-text-padding);
+    }
+    
+}
+
+/* contents */
+#contents {
+    color: var(--secondary-color);
+    background-color: var(--secondary-bg);
+}
+
+
+/* footer */
+footer {
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+
+}
+
+/*************************************/
+/* top */
+#self-introduction{
+    padding: var(--padding-default);
+}
+#latest-work{
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+    padding: var(--padding-default);
+}
+#footer-imgs{
+    display: flex;
+}
+.footer-img{
+    width: 50%;
+}
+@media(min-width: 768px){
+    #latest-works{
+        display: flex;
+        justify-content: space-between;
+        padding: var(--padding-narrow);
+    }
+    .latest-work{
+        width: 30%;
+    }
+    #self-introduction{
+        display: flex;
+    }
+    #self-introduction-image, #self-introduction-text{
+        width:50%;
+    }
+    #self-introduction-text{
+        padding: var(--twocolumn-text-padding);
+    }
+}

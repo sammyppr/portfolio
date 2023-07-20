@@ -8,61 +8,115 @@
 </head>
 <body>
     <header>
+        <div id="menubar-mobile">
+            <div class="nav">
+    
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input id="drawer_input" class="drawer_hidden" type="checkbox">
+            
+                <!-- ハンバーガーアイコン -->
+                <label for="drawer_input" class="drawer_open"><span></span></label>
+            
+                <!-- メニュー -->
+                <nav class="nav_content">
+                  <ul class="nav_list">
+                    <li class="nav_item"><a href="">メニュー1</a></li>
+                    <li class="nav_item"><a href="">メニュー2</a></li>
+                    <li class="nav_item"><a href="">メニュー3</a></li>
+                    <li class="nav_item"><a href="">メニュー3</a></li>
+                  </ul>
+                </nav>
+           
+              </div>
+        
+        </div>
         <div id="menubar">
             <div id="logo"><img src="./img/header/logo.png"></div>
-            <div id="menu">menu menu menu</div>
+            <div id="menu">
+                <ul>
+                    <li><a href="">aboutme</a></li>
+                    <li><a href="">movie</a></li>
+                    <li><a href="">programming</a></li>
+                    <li><a href="">design</a></li>
+                </ul>
+            </div>
             <div id="contact"><button>contact</button></div>
         </div>
         <div id="header-catch">
-            <div id="header-img"><img src="./img/header/header-image.png"></div>
-            <div id="header-text">
-                <h1>Sammyppr Portfolio</h1>
+            <div id="header-catch-img"><img src="./img/header/header-image.png"></div>
+            <div id="header-catch-text">
+                <h2>The Simple, <br>Clean Design</h2>
                 <p>Agency provides a full service range including technical skills, design, business understanding.</p>
-                <button>作品を見る</button>
+                <button>SEE MY WORK</button>
             </div>
         </div>
     </header>
-    <div id="contents">
-        <div id="self-introduction">
-            <div id="self-introduction-image">
-                <img src="./img/top/introduction-image.png">
-            </div>
-            <div id="self-introduction-text">
-                <h2>Proffesional Web Designer</h2>
+    <main>
+        <div id="main-about">
+            <div id="main-about-image"><img src="./img/top/introduction-image.png"></div>
+            <div id="main-about-text">
+                <h2>Professional Web Designer</h2>
+                <h3>Provides a full service range</h3>
                 <p>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</p>
-                <button>AboutMe</button>
+                <button>ABOUT ME</button>
             </div>
         </div>
-        <div id="latest-work">
-            <div id="latest-work-header">
-                <h2>Representative Work</h2>
+        <div id="main-latestwork">
+            <div id="main-latestwork-title">
+                <h2>Latest Work</h2>
+                <button>EXPLORE MORE</button>
             </div>
-            <div id="latest-works">
-                <div class="latest-work"><img src="./img/top/work1.png"></div>
-                <div class="latest-work"><img src="./img/top/work2.png"></div>
-                <div class="latest-work"><img src="./img/top/work3.png"></div>
+            <div id="main-latestwork-images">
+                <div class="main-latestwork">
+                    <img src="./img/top/work1.png" alt="">
+                    <div class="work-genre">Movie</div>
+                    <div class="work-title">title1</div>
+                </div>
+                <div class="main-latestwork">
+                    <img src="./img/top/work2.png" alt="">
+                    <div class="work-genre">Programming</div>
+                    <div class="work-title">title2</div>
+                </div>
+                <div class="main-latestwork">
+                    <img src="./img/top/work3.png" alt="">
+                    <div class="work-genre">Design</div>
+                    <div class="work-title">title3</div>
+                </div>
             </div>
         </div>
-        <div id="footer-imgs">
-            <div class="footer-img"><img src="./img/top/footer-pic1.png"></div>
-            <div class="footer-img"><img src="./img/top/footer-pic2.png"></div>
-            <div class="footer-img"><img src="./img/top/footer-pic3.png"></div>
-            <div class="footer-img"><img src="./img/top/footer-pic4.png"></div>
-            <div class="footer-img"><img src="./img/top/footer-pic5.png"></div>
-            <div class="footer-img"><img src="./img/top/footer-pic6.png"></div>
+        <div id="main-images">
+            <img src="./img/top/footer-pic1.png" alt="">
+            <img src="./img/top/footer-pic2.png" alt="">
+            <img src="./img/top/footer-pic3.png" alt="">
+            <img src="./img/top/footer-pic4.png" alt="">
+            <img src="./img/top/footer-pic5.png" alt="">
+            <img src="./img/top/footer-pic6.png" alt="">
         </div>
-    </div>
+    </main>
     <footer>
         <div id="footer-main">
-            <div id="footer-title">タイトル</div>
-            <div id="footer-menu">
-                <div id="footer-menu1"></div>
-                <div id="footer-menu2"></div>
+            <div id="footer-title">Portfolio</div>
+            <div id="footer-menus">
+                <div class="footer-menu">
+                    <div class="footer-menu-title">MENU</div>
+                    <div class="footer-menu-item">About</div>
+                </div>
+                <div class="footer-menu">
+                    <div class="footer-menu-title">WORK</div>
+                    <div class="footer-menu-item">Movie</div>
+                    <div class="footer-menu-item">Programming</div>
+                    <div class="footer-menu-item">Design</div>
+                </div>
             </div>
-            <div id="footer-sns"></div>
+            <div id="footer-sns">
+                <a href=""><img class="sns-icon" src="./img/footer/sns-1.png"></a>
+                <a href=""><img class="sns-icon" src="./img/footer/sns-2.png"></a>
+                <a href=""><img class="sns-icon" src="./img/footer/sns-3.png"></a>
+            </div>
         </div>
-        <div id="footer-sub">コピーライト系</div>
-
+        <hr>
+        <div id="footer-sub">Copyright © 2023 Sammy. 
+            All Rights Reserved.</div>
     </footer>
 </body>
 </html>
